@@ -28,7 +28,13 @@ export default function Production() {
             <Navbar/>
             <div className="production">
                 <Grid container spacing={0} className={classes.grid}>
-                    <Grid item xs={12} md={8}>
+                    <Grid item xs={6}>
+                        
+                    </Grid>
+                    <Grid item xs={6}>
+                        
+                    </Grid>
+                    <Grid item xs={6}>
                         
                     </Grid>
                     <Grid item xs={12} md={4}>    
