@@ -4,9 +4,10 @@ import { Container, Grid, Typography, Button, Paper } from "@material-ui/core";
 import Footer from "../components/footer";
 import Image from 'next/image';
 import { makeStyles } from '@material-ui/core/styles';
-import { loremIpsum, LoremIpsum } from 'react-lorem-ipsum'
-import Card from './card2'
-import ReactPlayer from 'react-player'
+import { loremIpsum, LoremIpsum } from 'react-lorem-ipsum';
+import Card2 from './card2';
+import Card from './card';
+import ReactPlayer from 'react-player';
 
 const useStyles = makeStyles((theme) => ({
   grid: {
@@ -56,24 +57,6 @@ export default function Home() {
         </Grid>
   </Grid>
 </div>
-<div className="production">
-  <Grid container spacing={1} className={classes.grid}>
-    <Grid item xs={6}>
-      <Grid item xs={6}>
-        <Card/>
-      </Grid>
-      <Grid item xs={6}>
-        <ReactPlayer url='https://www.youtube.com/watch?v=K3WOnAUfhpU' />
-      </Grid>
-    </Grid>
-    <Grid item xs={6} md={6}>    
-      <Typography variant="h3" gutterBottom component="div" textAlign='center'>
-        production
-      </Typography>
-      <LoremIpsum p={2}/>
-    </Grid>
-  </Grid>
-</div>
 <div className="team">
   <Grid container spacing={1} className={classes.grid}>
     <Grid item xs={12} md={6}>
@@ -85,13 +68,29 @@ export default function Home() {
     <Grid item xs={12} md={6} >
       <Grid item xs={6}>
         <Card/>
-      </Grid>
-      <Grid item xs={6}>
-        <Card/>
-      </Grid>                 
+      </Grid>                
     </Grid>
   </Grid>
 </div>
+<div className="production">
+  <Grid container spacing={1} className={classes.grid}>
+    <Grid item xs={6}>
+      <Grid item xs={6}>
+        <Card2/>
+      </Grid>
+      <Grid item xs={6}>
+        <ReactPlayer url='https://www.youtube.com/watch?v=K3WOnAUfhpU' />
+      </Grid>
+    </Grid>
+    <Grid item xs={6} md={6}>    
+      <Typography variant="h3" gutterBottom component="div" textAlign='center'>
+        Production
+      </Typography>
+      <LoremIpsum p={2}/>
+    </Grid>
+  </Grid>
+</div>
+
 <Footer/>
 </>
 );
