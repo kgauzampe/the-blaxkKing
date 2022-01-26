@@ -39,7 +39,7 @@ export default function About() {
                     <Grid item xs={12} md={6}>
                         
                         <LoremIpsum p={3}/>
-                        <Button variant="contained">See Our Work</Button>
+                        <Button variant="contained" href="/production">See Our Work</Button>
                     </Grid>
                 </Grid>
             </div>

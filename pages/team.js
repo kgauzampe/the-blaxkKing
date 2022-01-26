@@ -8,6 +8,7 @@ import { loremIpsum, LoremIpsum } from 'react-lorem-ipsum';
 import Card from './card'
 
 
+
 const useStyles = makeStyles((theme) => ({
     grid: {
         width: '100%',
@@ -18,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(2),
         textAlign: 'center',
         color: theme.palette.secondary,
+        backgroundImage:`url('/img/about.jpg')`
        
     }
 }));
@@ -29,13 +31,13 @@ export default function Team() {
             <Navbar/>
             <div className="team">
                 <Grid container spacing={1} className={classes.grid}>
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={6}>
                         <Typography variant="h3" gutterBottom component="div" textAlign='center'>
                             Meet Our Team
                         </Typography>
                         <LoremIpsum p={3}/>
                     </Grid>
-                    <Grid item xs={12} md={8}>
+                    <Grid item xs={12} md={6} >
                         <Grid item xs={6}>
                             <Card/>
                         </Grid>

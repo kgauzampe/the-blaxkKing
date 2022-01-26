@@ -17,7 +17,7 @@ export default function Home() {
   <Typography variant="h5">Driving creativity and Imagination</Typography>
 
 
-  <Button variant="contained" color="primary">
+  <Button variant="contained" color="primary" href="/about">
     Discover More
   </Button>
   </center>
