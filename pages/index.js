@@ -13,12 +13,7 @@ export default function Home() {
 <div className="home">
   <Container>
     <center>
-    <Image 
-                        src='/img/Islander.png'
-                        alt='about picture'
-                        width={280}
-                        height={280}
-                        />
+    <Typography variant="h2">The islanders</Typography>
   <Typography variant="h5">Driving creativity and Imagination</Typography>
 
 
