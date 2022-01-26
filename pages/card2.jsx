@@ -20,7 +20,7 @@ export default function MediaCard() {
           Dance Studio Documentary
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          This is a story about the life of a dancer
+          A stort about dance
         </Typography>
       </CardContent>
       <CardActions>

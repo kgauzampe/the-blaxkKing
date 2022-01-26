@@ -42,7 +42,7 @@ export default function Home() {
 </div>
 <div className="about">
   <Grid container spacing={0} className={classes.grid}>
-      <Grid item xs={12} md={6}>
+      <Grid item xs={12} md={6} lg={6}>
         <Image 
           src='/img/about.jpg'
           alt='about picture'
@@ -50,7 +50,7 @@ export default function Home() {
           height={700}
         />
       </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={6} lg={6}>
         <Typography variant="h2">About us</Typography>                        
           <LoremIpsum p={3}/>
           <Button variant="contained" href="/production">See Our Work</Button>
@@ -59,14 +59,14 @@ export default function Home() {
 </div>
 <div className="team">
   <Grid container spacing={1} className={classes.grid}>
-    <Grid item xs={12} md={6}>
+    <Grid item xs={12} md={6} lg={6}>
       <Typography variant="h3" gutterBottom component="div" textAlign='center'>
         Meet Our Team
       </Typography>
       <LoremIpsum p={3}/>
     </Grid>
-    <Grid item xs={12} md={6} >
-      <Grid item xs={12}>
+    <Grid item xs={12} md={6} lg={6} >
+      <Grid item xs={12} md={6} lg={6}>
         <Card/>
       </Grid>                
     </Grid>
@@ -74,19 +74,16 @@ export default function Home() {
 </div>
 <div className="production">
   <Grid container spacing={1} className={classes.grid}>
-
-    <Grid item xs={12} md={6}>    
+  <Grid item xs={12} md={6} lg={6}>
       <Typography variant="h3" gutterBottom component="div" textAlign='center'>
         Production
       </Typography>
-      <LoremIpsum p={2}/>
+      <LoremIpsum p={3}/>
     </Grid>
-    <Grid item xs={12}>
-      <Grid item xs={12}>
+    <Grid item xs={12} md={6} lg={6} >
+      <Grid item xs={12} md={6} lg={6}>
         <Card2/>
-      </Grid>
-      <Grid item xs={12}>
-      </Grid>
+      </Grid>                
     </Grid>
   </Grid>
 </div>
