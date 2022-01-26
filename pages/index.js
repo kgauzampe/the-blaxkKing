@@ -53,7 +53,7 @@ export default function Home() {
         <Grid item xs={12} md={6} lg={6}>
         <Typography variant="h2">About us</Typography>                        
           <LoremIpsum p={3}/>
-          <Button variant="contained" href="/production">See Our Work</Button>
+          <Button variant="contained" coloer="black" href="/production">See Our Work</Button>
         </Grid>
   </Grid>
 </div>
@@ -63,7 +63,7 @@ export default function Home() {
       <Typography variant="h3" gutterBottom component="div" textAlign='center'>
         Meet Our Team
       </Typography>
-      <LoremIpsum p={3}/>
+      <LoremIpsum p={2}/>
     </Grid>
     <Grid item xs={12} md={6} lg={6} >
       <Grid item xs={12} md={6} lg={6}>
