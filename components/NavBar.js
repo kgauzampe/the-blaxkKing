@@ -28,23 +28,23 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href="#about">
+              <Link href="">
                 <a>About</a>
               </Link>
             </li>
             <li>
-              <Link href="#production">
+              <Link href="">
                 <a>Production</a>
               </Link>
             </li>
             <li>
-              <Link href="#team">
+              <Link href="">
                 <a>Team</a>
               </Link>
             </li>
 
             <li>
-              <Link href="/contact">
+              <Link href="">
                 <a>Contact</a>
               </Link>
             </li>
