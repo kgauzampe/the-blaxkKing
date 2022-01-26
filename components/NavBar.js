@@ -6,7 +6,7 @@ export default function Navbar() {
       <section>
         <Link href="/">
           <a id="logo">
-            <img className="navbar-logo" src="" alt="" />
+            <img className="navbar-logo" src="/img/Islander.png" alt="" />
           </a>
         </Link>
 

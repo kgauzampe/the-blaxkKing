@@ -24,6 +24,8 @@ header {
 }
 .navbar-logo {
   margin-left: 50px;
+  height: 70px;
+  border-radius: 100%;
 }
 
 #logo {
@@ -99,6 +101,7 @@ label {
 
   #logo {
     padding: 0px;
+    
   }
 
   header input[type="checkbox"] {

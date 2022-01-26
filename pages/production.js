@@ -5,8 +5,8 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid,Paper, Typography} from '@material-ui/core/';
 import { loremIpsum, LoremIpsum } from 'react-lorem-ipsum';
-
-
+import Image from 'next/image';
+import Card from './card2'
 const useStyles = makeStyles((theme) => ({
     grid: {
         width: '100%',
@@ -27,17 +27,16 @@ export default function Production() {
         <>
             <Navbar/>
             <div className="production">
-                <Grid container spacing={0} className={classes.grid}>
+                <Grid container spacing={1} className={classes.grid}>
                     <Grid item xs={6}>
-                        
-                    </Grid>
                     <Grid item xs={6}>
-                        
+                            <Card/>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Card/>
+                        </Grid>
                     </Grid>
-                    <Grid item xs={6}>
-                        
-                    </Grid>
-                    <Grid item xs={12} md={4}>    
+                    <Grid item xs={6} md={6}>    
                         <Typography variant="h3" gutterBottom component="div" textAlign='center'>
                             production
                         </Typography>
