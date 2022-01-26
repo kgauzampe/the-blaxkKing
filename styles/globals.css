@@ -236,7 +236,27 @@ Home
 About
 
 ****************************************************************************************/
-
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1.9;
+  text-align: center;
+ height: 100vh;
+  color: white;
+  background-image: repeating-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/img/abt.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 
 /****************************************************************************************
@@ -246,4 +266,49 @@ Team
 .team {
   padding-top: 50px;
   padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1.9;
+  text-align: center;
+ height: 100vh;
+  color: white;
+  background-image: repeating-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/img/team.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/****************************************************************************************
+Production
+
+****************************************************************************************/
+
+.production{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1.9;
+  text-align: center;
+ height: 100vh;
+  color: white;
+  background-image: repeating-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/img/prod1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

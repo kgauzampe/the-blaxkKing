@@ -38,7 +38,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href=".team">
                 <a>Team</a>
               </Link>
             </li>

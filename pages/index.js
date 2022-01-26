@@ -30,7 +30,12 @@ export default function Home() {
 <div className="home">
   <Container>
     <center>
-    <Typography variant="h2">The islanders</Typography>
+    <Image 
+          src='/img/Islander.png'
+          alt='landing logo'
+          width={130}
+          height={130}
+        />
   <Typography variant="h5">Driving creativity and Imagination</Typography>
 
 
@@ -73,7 +78,7 @@ export default function Home() {
   </Grid>
 </div>
 <div className="production">
-  <Grid container spacing={1} className={classes.grid}>
+  <Grid container spacing={2} className={classes.grid}>
   <Grid item xs={12} md={6} lg={6}>
       <Typography variant="h3" gutterBottom component="div" textAlign='center'>
         Production
