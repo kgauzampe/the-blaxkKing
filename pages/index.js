@@ -66,7 +66,7 @@ export default function Home() {
       <LoremIpsum p={3}/>
     </Grid>
     <Grid item xs={12} md={6} >
-      <Grid item xs={6}>
+      <Grid item xs={12}>
         <Card/>
       </Grid>                
     </Grid>
@@ -74,15 +74,15 @@ export default function Home() {
 </div>
 <div className="production">
   <Grid container spacing={1} className={classes.grid}>
-    <Grid item xs={6}>
-      <Grid item xs={6}>
+    <Grid item xs={12}>
+      <Grid item xs={12}>
         <Card2/>
       </Grid>
-      <Grid item xs={6}>
-        <ReactPlayer url='https://www.youtube.com/watch?v=K3WOnAUfhpU' />
+      <Grid item xs={12}>
+        
       </Grid>
     </Grid>
-    <Grid item xs={6} md={6}>    
+    <Grid item xs={12} md={6}>    
       <Typography variant="h3" gutterBottom component="div" textAlign='center'>
         Production
       </Typography>
