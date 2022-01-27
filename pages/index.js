@@ -31,7 +31,7 @@ export default function Home() {
   <Container>
     <center>
     <Image 
-          src='/img/Islander.png'
+          src='/img/ISLANDER LOGO 2018.png'
           alt='landing logo'
           width={130}
           height={130}
