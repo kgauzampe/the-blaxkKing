@@ -63,7 +63,7 @@ export default function Home() {
   </Grid>
 </div>
 <div className="team">
-  <Grid container spacing={1} className={classes.grid}>
+  <Grid container spacing={2} className={classes.grid}>
     <Grid item xs={12} md={6} lg={6} className="teamtext">
       <Typography variant="h3" gutterBottom component="div" textAlign='center'>
         Meet Our Team
