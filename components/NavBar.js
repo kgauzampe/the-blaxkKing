@@ -23,13 +23,8 @@ export default function Navbar() {
         <nav>
           <ul>
             <li>
-              <Link href="/">
-                <a>Home</a>
-              </Link>
-            </li>
-            <li>
               <Link href="/#home">
-                <a>About</a>
+                <a>Home</a>
               </Link>
             </li>
             <li>
@@ -38,8 +33,8 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href="#team">
-                <a>Team</a>
+              <Link href="/#about">
+                <a>About Us</a>
               </Link>
             </li>
 
