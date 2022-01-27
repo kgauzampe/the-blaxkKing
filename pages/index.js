@@ -64,31 +64,36 @@ export default function Home() {
 </div>
 <div className="team">
   <Grid container spacing={1} className={classes.grid}>
-    <Grid item xs={12} md={6} lg={6}>
+    <Grid item xs={12} md={6} lg={6} className="teamtext">
       <Typography variant="h3" gutterBottom component="div" textAlign='center'>
         Meet Our Team
       </Typography>
-      <LoremIpsum p={2}/>
+      <LoremIpsum p={3}/>
     </Grid>
-    <Grid item xs={12} md={6} lg={6} >
-      <Grid item xs={12} md={6} lg={6}>
+      <Grid item xs={12} md={3} lg={3}>
         <Card/>
-      </Grid>                
-    </Grid>
+      </Grid> 
+      <Grid item xs={12} md={3} lg={3}>
+        <Card/>
+      </Grid> 
+                     
   </Grid>
 </div>
 <div className="production">
   <Grid container spacing={2} className={classes.grid}>
-  <Grid item xs={12} md={6} lg={6}>
+  <Grid item xs={12} md={12} lg={6} className="prodtext">
       <Typography variant="h3" gutterBottom component="div" textAlign='center'>
         Production
       </Typography>
       <LoremIpsum p={3}/>
     </Grid>
-    <Grid item xs={12} md={6} lg={6} >
-      <Grid item xs={12} md={6} lg={6}>
+    <Grid item xs={12} md={12} lg={6} className="prodcard" >
+      <Grid item xs={12} md={4} lg={4}>
         <Card2/>
-      </Grid>                
+      </Grid>
+      <Grid item xs={12} md={4} lg={4}>
+        <Card2/>
+      </Grid>                 
     </Grid>
   </Grid>
 </div>
