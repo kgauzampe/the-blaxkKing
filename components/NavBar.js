@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+
 export default function Navbar() {
   return (
     <header>
@@ -23,17 +24,17 @@ export default function Navbar() {
         <nav>
           <ul>
             <li>
-              <Link href="/#home">
+              <Link href="/">
                 <a>Home</a>
               </Link>
             </li>
             <li>
-              <Link href="#production">
+              <Link href="/production">
                 <a>Production</a>
               </Link>
             </li>
             <li>
-              <Link href="/#about">
+              <Link href="/about">
                 <a>About Us</a>
               </Link>
             </li>

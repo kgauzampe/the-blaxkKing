@@ -45,48 +45,6 @@ export default function Home() {
   </center>
   </Container>
 </div>
-<div className="production" id="production">
-  <Grid container spacing={2} className={classes.grid}>
-  <Grid item xs={12} md={12} lg={6} className="prodtext">
-      <Typography variant="h3" gutterBottom component="div" textAlign='center'>
-        Production
-      </Typography>
-      <LoremIpsum p={3}/>
-    </Grid>
-    <Grid item xs={12} md={12} lg={6} className="prodcard" >
-      <Grid item xs={12} md={4} lg={4}>
-        <Card2/>
-      </Grid>                 
-    </Grid>
-  </Grid>
-</div>
-<div className="about" id="about"> 
-  <Grid container spacing={0} className={classes.grid}>
-      <Grid item xs={12} md={6} lg={6}>
-        <Image 
-          src='/img/about.jpg'
-          alt='about picture'
-          width={800}
-          height={700}
-        />
-      </Grid>
-        <Grid item xs={12} md={6} lg={6}>
-        <Typography variant="h2">About us</Typography>                        
-          <LoremIpsum p={3}/>
-          <Button variant="contained" coloer="black" href="/production">See Our Work</Button>
-        </Grid>
-  </Grid>
-</div>
-<div className="team" id="team">
-  <Grid container spacing={2} className={classes.grid}>
-    <Grid item xs={12} md={6} lg={6} className="teamtext">
-      <LoremIpsum p={4}/>
-    </Grid>
-      <Grid item xs={12} md={3} lg={3}>
-        <Card/>
-      </Grid>                      
-  </Grid>
-</div>
 <Footer/>
 </>
 );
