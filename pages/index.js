@@ -68,15 +68,11 @@ export default function Home() {
       <Typography variant="h3" gutterBottom component="div" textAlign='center'>
         Meet Our Team
       </Typography>
-      <LoremIpsum p={3}/>
+      <LoremIpsum p={4}/>
     </Grid>
       <Grid item xs={12} md={3} lg={3}>
         <Card/>
-      </Grid> 
-      <Grid item xs={12} md={3} lg={3}>
-        <Card/>
-      </Grid> 
-                     
+      </Grid>                      
   </Grid>
 </div>
 <div className="production">
@@ -88,9 +84,6 @@ export default function Home() {
       <LoremIpsum p={3}/>
     </Grid>
     <Grid item xs={12} md={12} lg={6} className="prodcard" >
-      <Grid item xs={12} md={4} lg={4}>
-        <Card2/>
-      </Grid>
       <Grid item xs={12} md={4} lg={4}>
         <Card2/>
       </Grid>                 

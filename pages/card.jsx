@@ -12,8 +12,8 @@ export default function MediaCard() {
       <CardMedia
         component="img"
         height="140"
-        image="/img/person.jpg"
-        alt="green iguana"
+        image="/img/jane.jpg"
+        alt="jane doe"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -27,6 +27,25 @@ export default function MediaCard() {
         <Button size="small">Share</Button>
         <Button size="small">Learn More</Button>
       </CardActions>
+      <CardMedia
+        component="img"
+        height="140"
+        image="/img/james.jpg"
+        alt="james"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          James Doe
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Co-Founder and vedio Editer
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Share</Button>
+        <Button size="small">Learn More</Button>
+      </CardActions>
     </Card>
+    
   );
 }
