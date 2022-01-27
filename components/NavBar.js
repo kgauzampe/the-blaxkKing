@@ -7,7 +7,7 @@ export default function Navbar() {
       <section>
         <Link href="/">
           <a id="logo">
-            <img className="navbar-logo" src="" alt="" />
+            <img className="navbar-logo" src="/img/ISLANDER LOGO 2018.png" alt="" />
           </a>
         </Link>
 
