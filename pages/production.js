@@ -36,9 +36,9 @@ export default function Production() {
       <LoremIpsum p={3}/>
     </Grid>
     <Grid item xs={12} md={12} lg={6} className="prodcard" >
-      <Grid item xs={12} md={4} lg={4}>
+      <Grid item xs={12} md={6} lg={6}>
         <Card2/>
-      </Grid>                 
+      </Grid>                
     </Grid>
   </Grid>
 </div>

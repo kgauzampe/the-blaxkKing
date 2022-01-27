@@ -8,7 +8,6 @@ header section {
   align-items: center;
   position: relative;
 }
- 
 body {
   padding: 0;
   margin: 0;
@@ -25,8 +24,6 @@ header {
 }
 .navbar-logo {
   margin-left: 50px;
-  height: 70px;
-  border-radius: 100%;
 }
 
 #logo {
@@ -48,7 +45,7 @@ header nav ul li:last-child {
 }
 
 header nav ul li a {
-  color:white;
+  color: black;
   font-size: 18px;
   padding: 25px 20px;
   display: inline-block;
@@ -58,7 +55,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
   background-color: gray;
-  color: white;
+  color: black;
   transition: all 0.5s ease 0s;
 }
 
@@ -70,7 +67,7 @@ header nav ul li a:hover i {
 
 header nav ul li a i {
   padding-right: 10px;
-  color:gray;
+  color:wheat;
   transition: all 0.5s ease 0s;
 }
 
@@ -102,7 +99,6 @@ label {
 
   #logo {
     padding: 0px;
-    
   }
 
   header input[type="checkbox"] {
@@ -146,17 +142,16 @@ label {
     display: table;
   }
   .toggle-menu {
-    background-color: gray;
+    background-color: whitesmoke;
   }
 
   header nav ul li a {
-    color: black;
+    color: rgb(231, 231, 241);
     font-size: 15px;
     padding: 10px 20px;
     display: block;
     border-bottom: 1px solid rgba(225, 225, 225, 0.1);
     transition: all 250ms ease-in-out;
-    background-color: gray;
   }
 
   header nav ul li a:hover {
@@ -283,10 +278,10 @@ Production
   text-align: center;
   color: white;
   background-image: repeating-linear-gradient(
-    #3eadcf,
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("/img/rec.jpg");
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+    url("/img/team.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
