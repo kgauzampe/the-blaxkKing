@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
     <Navbar/>
-<div className="home">
+<div className="home" id="home">
   <Container>
     <center>
     <Image 
@@ -45,7 +45,7 @@ export default function Home() {
   </center>
   </Container>
 </div>
-<div className="about">
+<div className="about" id="about"> 
   <Grid container spacing={0} className={classes.grid}>
       <Grid item xs={12} md={6} lg={6}>
         <Image 
@@ -62,7 +62,7 @@ export default function Home() {
         </Grid>
   </Grid>
 </div>
-<div className="team">
+<div className="team" id="team">
   <Grid container spacing={2} className={classes.grid}>
     <Grid item xs={12} md={6} lg={6} className="teamtext">
       <Typography variant="h3" gutterBottom component="div" textAlign='center'>
@@ -75,7 +75,7 @@ export default function Home() {
       </Grid>                      
   </Grid>
 </div>
-<div className="production">
+<div className="production" id="production">
   <Grid container spacing={2} className={classes.grid}>
   <Grid item xs={12} md={12} lg={6} className="prodtext">
       <Typography variant="h3" gutterBottom component="div" textAlign='center'>
